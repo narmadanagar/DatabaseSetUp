@@ -10,18 +10,24 @@
             print '<li><a href="index.php">Home</a></li>';
         }
         
+        if ($path_parts['filename'] == "form") {
+            print '<li class="activePage">Form</li>';
+        } else {
+            print '<li><a href="form.php">Form</a></li>';
+        }
+        
         if ($path_parts['filename'] == "tables") {
             print '<li class="activePage">Display Tables</li>';
         } else {
             print '<li><a href="tables.php">Display Tables</a></li>';
         }
         
-//        if ($path_parts['filename'] == "populate-table.php") {
-//            print '<li class="activePage">Populate Tables</li>';
-//        } else {
-//            print '<li><a href="populate-table.php">Populate Tables</a></li>';
-//        }
-//        
+        if ($path_parts['filename'] == "FourYearPlan") {
+            print '<li class="activePage">Four Year Plan</li>';
+        } else {
+            print '<li><a href="fourYearPlan.php">Four Year Plan</a></li>';
+        }
+        
         ?>
     </ol>
 </nav>

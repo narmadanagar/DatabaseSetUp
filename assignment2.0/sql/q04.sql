@@ -1,0 +1,1 @@
+select * from tblCourses where fldCourseNumber = "Database Design for the Web"

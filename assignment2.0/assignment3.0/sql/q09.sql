@@ -1,0 +1,1 @@
+select distinct(fldBuilding),fldNumStudents from tblSections where fldDays like ("%W%") group by fldBuilding order by fldNumStudents desc

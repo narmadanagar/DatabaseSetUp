@@ -22,7 +22,16 @@
 
         <h1>Home Page</h1>
         <p><a href="assignment1.0/index.php">Assignment #1</a></p>
-        <p><a href="tryme.php">Tryme</a></p>
+
+        <p><a href="assignment1.0/tryme.php">Tryme</a></p>
+        <p><a href="assignment3.0/join.php">Assignment 3.0</a></p>
+        <p><a href="misc/friday.php">In class assignment</a></p>
+        <p><a href="advising/index.php">ADVISING</a></p>
+        <p><a href="assignment10/index.php">Blog</a>
+        <a href="assignment10/specs.pdf">Specification Document</a>      
+        
+        </p>
+
         
     </body>
 </html>

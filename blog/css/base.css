@@ -1,0 +1,158 @@
+
+@import "reset.css";
+body {
+    background-attachment: fixed;
+    background-color: white;
+    background-image: url("http://wallpapercave.com/wp/2HedxeK.jpg");
+    background-repeat: no-repeat;
+    color: #325050;
+    font-family: "Libre Baskerville",sans-serif;
+}
+article {
+    padding: 2em;
+}
+figcaption {
+    color: #839e99;
+    font-style: italic;
+    text-align: center;
+}
+.main {
+    background-image: url("http://embernevill.com/wp-content/uploads/2014/05/motivation_banner_blog.jpg");
+    overflow: auto;
+}
+header .float_left {
+    margin-top: 0;
+}
+header h1 {
+    margin: auto;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+section {
+    padding: 2em;
+    width: 40%;
+}
+.float_left {
+    float: left;
+    margin: 1em;
+    width: 45%;
+}
+.even {
+    background-color: whitesmoke;
+}
+.odd {
+    background-color: lightcyan;
+}
+.small {
+    width: 150px;
+}
+nav ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#table aside {
+    float: left;
+    height: 600px;
+    margin-left: 2em;
+    overflow: auto;
+}
+#table section {
+    color: black;
+    float: left;
+    height: 600px;
+    overflow: auto;
+    width: 35%;
+}
+#table table {
+    border: medium solid #000080;
+    border-collapse: collapse;
+}
+#table td {
+    border: thin solid #000080;
+    border-collapse: collapse;
+}
+#table th {
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid black;
+    color: black;
+}
+table {
+    color: black;
+    margin: 2em auto;
+    width: 100%;
+}
+nav li {
+    border-right: 1px solid #bbb;
+    float: left;
+}
+.activePage {
+    background-color: #4caf50;
+    color: white;
+    display: block;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+}
+nav li:last-child {
+    border-right: medium none;
+}
+nav li a {
+    color: white;
+    display: block;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+}
+tr:nth-child(2n+1) {
+    background: #f8e2c1 none repeat scroll 0 0;
+}
+td {
+    color: black;
+    padding: 2%;
+}
+article h1 {
+    font-family: monospace;
+    font-size: 3em;
+    text-align: center;
+}
+tr {
+    background: #fbf1f4 none repeat scroll 0 0;
+    color: black;
+    opacity: 0.7;
+}
+article p, ol {
+    background: white none repeat scroll 0 0;
+    color: black;
+    font-family: cursive;
+    opacity: 0.6;
+    word-spacing: 0.5em;
+}
+p {
+    padding: 1em;
+}
+table p {
+    color: black;
+    opacity: 0.9;
+}
+.wrapper {
+    background: white none repeat scroll 0 0;
+    color: black;
+    opacity: 0.7;
+}
+.float_right {
+    float: right;
+    margin: 1em;
+    width: 45%;
+}

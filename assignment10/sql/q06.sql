@@ -1,0 +1,1 @@
+select T.fldFirstName, T.fldPhone, T.fldSalary from tblTeachers T where T.fldSalary < (select avg(fldSalary) from tblTeachers)

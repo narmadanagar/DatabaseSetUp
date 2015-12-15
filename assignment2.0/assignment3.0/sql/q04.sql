@@ -1,0 +1,1 @@
+SELECT distinct SC.fldCRN, S.fldFirstName, S.fldLastName FROM tblStudents S,tblSections SC, tblEnrolls E, tblCourses C where E.fnkStudentId = S.pmkStudentId and E.fnkCourseId = C.pmkCourseId and SC.fnkCourseId = E.fnkCourseId and C.fldDepartment = "CS" and C.fldCourseNumber = "148" and SC.fldCRN = "91954" order by fldCRN,fldLastName,fldFirstName 

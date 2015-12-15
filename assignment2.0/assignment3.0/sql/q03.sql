@@ -1,0 +1,1 @@
+SELECT distinct(fldCourseName), fldDays, fldStart,fldStop FROM tblSections S,tblCourses C,tblTeachers T where S.fnkTeacherNetId = T.pmkNetId and T.pmkNetId = 'jlhorton' and C.pmkCourseId = S.fnkCourseId order by fldStart
